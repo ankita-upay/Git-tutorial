@@ -143,7 +143,7 @@ Adding/Deleting/Updating in the staging area
     * A file is created in the folder with no name 
     * Open it and add the name of the file which you do not want to track
   ![badfile](https://user-images.githubusercontent.com/43897511/50930461-af5d8d00-1425-11e9-8e3a-e71a129deadd.PNG)
-    * By checking the git status , we see we have the .gitignore in the untracked files
+  * by checking the git status , we see we have the .gitignore in the untracked files
   ![aftergitignore](https://user-images.githubusercontent.com/43897511/50930480-be443f80-1425-11e9-8ec9-8df5f719c909.PNG)
   
 ##### HEAD is a reference to the last commit in the currently check-out branch.
