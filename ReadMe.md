@@ -143,7 +143,7 @@ Adding/Deleting/Updating in the staging area
     * A file is created in the folder with no name 
     * Open it and add the name of the file which you do not want to track
   ![badfile](https://user-images.githubusercontent.com/43897511/50930461-af5d8d00-1425-11e9-8e3a-e71a129deadd.PNG)
-  * by checking the git status , we see we have the .gitignore in the untracked files
+    * By checking the git status , we see we have the .gitignore in the untracked files
   ![aftergitignore](https://user-images.githubusercontent.com/43897511/50930480-be443f80-1425-11e9-8ec9-8df5f719c909.PNG)
   
 ##### HEAD is a reference to the last commit in the currently check-out branch.
@@ -173,25 +173,59 @@ Adding/Deleting/Updating in the staging area
   * forking a repository creates a copy of the repository under your Github ID . Any changes made will reflect only your forked repository . But if you want to make any changes to your forked repository you will have to explicitly create a pull request to original repository and once approved by admin , then only you can commit changes  or merge with the existing original repository.
   
 ### Creating remote repository github
+     * create a repository in github
+      ![new repo](https://user-images.githubusercontent.com/43897511/50949186-cffc0600-146a-11e9-9e17-ca7a561f2783.PNG)
      * copy the https link 
+     ![https](https://user-images.githubusercontent.com/43897511/50949223-f621a600-146a-11e9-81c4-72f10c6363f9.PNG)
      * create a new directory 
      * initialize the new directory
      * connect remote repository
     	* _git remote add origin <https link>
+      ![remoteconn](https://user-images.githubusercontent.com/43897511/50949237-09347600-146b-11e9-956d-08cae423e52c.PNG)
 		* connected our repository
+    
 ### Push, Pull ,fetch
     * fetch is pulling information from your repository
     * push information from our local repository to the host or shared server that we are using
     * pull remote repository to local repository
     * after modifying and committing the changes in the files we do a git push
-  
+    ![newpush](https://user-images.githubusercontent.com/43897511/50949275-28330800-146b-11e9-9c8e-02ff0ed98e24.PNG)
     * it asks for username and password of the github account
     * We can see changes on the github account after this
 	
-### 
-    
+##### you can push only one branch at a time to a remote repository
+
+### Working with Branches
+    * creating a sample c++ file on github
+    * Pull the same from github using terminal 
+  ![pull sample file](https://user-images.githubusercontent.com/43897511/50953926-7ac7f080-147a-11e9-863d-1a2d867f29ee.PNG)
+    * create a new branch then we will fix errors or do modification
+    * Then add the same in staging area and commit
+    ![branchadd](https://user-images.githubusercontent.com/43897511/50953956-916e4780-147a-11e9-919e-98cf0bc7781b.PNG)
+    * Now we will merge the changes 
+      * switch to master branch
+      * merge the branch 
+    ![merge](https://user-images.githubusercontent.com/43897511/50953972-a054fa00-147a-11e9-86d1-030a15546112.PNG)
+      * you can check the history of changes using git log
+     ![newgitlog](https://user-images.githubusercontent.com/43897511/50953999-b367ca00-147a-11e9-8773-af36033c5bf3.PNG)
+      * also the changes are visible on github repository
+     ![githubseechange](https://user-images.githubusercontent.com/43897511/50954025-d3978900-147a-11e9-8d72-ae1f7d8981e9.PNG)
+     ![twobranch](https://user-images.githubusercontent.com/43897511/50954038-e14d0e80-147a-11e9-8b3e-36d94cf0a06d.PNG)
+    * Now we will delete the remote branch
+      * git push origin --delete <branch name>
+    ![deletebranch1](https://user-images.githubusercontent.com/43897511/50954054-f1fd8480-147a-11e9-862c-72f453b4831e.PNG)
   
-
+ ### Using Git GUI
+    * Github is a GIT GUI allowing you to interact with your repositories through a graphical interface.
+    * github desktop is used as an altertnative to the terminal when using Git
+    * download github desktop from [!link] https://desktop.github.com/
+    * File -> Options -> Accounts -> sign in to your github account
+    ![signin](https://user-images.githubusercontent.com/43897511/50954893-4dc90d00-147d-11e9-802d-9e25e86dcd8b.PNG)
+    * Create a new repository
+    ![gitgui1](https://user-images.githubusercontent.com/43897511/50954919-5cafbf80-147d-11e9-9277-08a74901f230.PNG)
+    * created new files in the new repository
+      * we would be able to see the new files in the changes tab
+      ![zoom1](https://user-images.githubusercontent.com/43897511/50955185-1149e100-147e-11e9-8e90-db96615252f1.PNG)
+    * you can do push, pull fetch , create branch all other things from here
+    * to push the repository you can simply publish repository
     
-
-
