@@ -220,12 +220,12 @@ Adding/Deleting/Updating in the staging area
     * github desktop is used as an altertnative to the terminal when using Git
     * download github desktop from [!link] https://desktop.github.com/
     * File -> Options -> Accounts -> sign in to your github account
-    ![signin](https://user-images.githubusercontent.com/43897511/50954893-4dc90d00-147d-11e9-802d-9e25e86dcd8b.PNG)
+   ![signin](https://user-images.githubusercontent.com/43897511/50954893-4dc90d00-147d-11e9-802d-9e25e86dcd8b.PNG)
     * Create a new repository
-    ![gitgui1](https://user-images.githubusercontent.com/43897511/50954919-5cafbf80-147d-11e9-9277-08a74901f230.PNG)
+   ![gitgui1](https://user-images.githubusercontent.com/43897511/50954919-5cafbf80-147d-11e9-9277-08a74901f230.PNG)
     * created new files in the new repository
       * we would be able to see the new files in the changes tab
-      ![zoom1](https://user-images.githubusercontent.com/43897511/50955185-1149e100-147e-11e9-8e90-db96615252f1.PNG)
+   ![zoom1](https://user-images.githubusercontent.com/43897511/50955185-1149e100-147e-11e9-8e90-db96615252f1.PNG)
     * you can do push, pull fetch , create branch all other things from here
     * to push the repository you can simply publish repository
     
